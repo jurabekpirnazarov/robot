@@ -9,7 +9,7 @@ import platform
 plt = platform.system()
 if plt == 'Linux' :pathlib.WindowsPath = pathlib.PosixPath
 
-path = 'https://github.com/jurabekpirnazarov/robot/blob/main/emotional_classic.pkl'
+path = 'emotional_classic.pkl'
 data = joblib
 
 pipe_lr = joblib.load(open(path,'rb'))

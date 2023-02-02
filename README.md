@@ -1,2 +1,5 @@
-# robot
-1c_vs_excell
+# NLP project(emotion classifier
+streamlit
+numpy
+pandas
+joblib

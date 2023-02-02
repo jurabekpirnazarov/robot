@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-path = 'https://github.com/jurabekpirnazarov/robot/blob/main/emotional_classic.pkl'
+path = 'emotional_classic.pkl'
 data = joblib
 
 pipe_lr = joblib.load(open(path,'rb'))

@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import pathlib
+import platform
+
+
+plt = platform.pathlib
+if plt == 'Linux' :pathlib.WindowsPath = pathlib.PosixPath
 
 path = 'emotional_classic.pkl'
 data = joblib

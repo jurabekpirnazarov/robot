@@ -6,7 +6,7 @@ import pathlib
 import platform
 
 
-plt = platform.pathlib
+plt = platform.system()
 if plt == 'Linux' :pathlib.WindowsPath = pathlib.PosixPath
 
 path = 'https://github.com/jurabekpirnazarov/robot/blob/main/emotional_classic.pkl'
